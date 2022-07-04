@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlDatabaseLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=jamesbondserver.database.windows.net;initial catalog=ADFMiniProjectDB;user id=noobcoder",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjYjlkNDlkNS0wYzMxLTRhYmEtODc0ZS0wNmJhMGFlMjUwMGMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedIR123",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
